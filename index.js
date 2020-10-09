@@ -26,4 +26,8 @@ class Evergreen extends Deciduous {
     super(species);
     this.name = name;
   }
+  
+  static definition() {
+    return (super.definition() + '')
+  }
 }
